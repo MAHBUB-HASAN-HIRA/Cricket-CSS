@@ -1,0 +1,43 @@
+.field{
+    width: 30%;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+h3{
+     text-align: center;
+     color: rgb(20, 12, 126);
+ }
+
+ span{
+     color: rgb(182, 13, 13);
+ }
+
+.bat{
+    width: 400px;
+    transition: transform .8s ease-in-out .2s
+ }
+
+ .field:hover .bat{
+     transform: rotate(-60deg);
+     transform-origin: 100% 0%;
+ }
+
+ .ball{
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background-color: rgb(168, 13, 13);
+     position: relative;
+     left: 475px;
+     transition: transform 1s ease-in-out .8s;
+ }
+ 
+ .field:hover .ball{
+     transform: translate(760px, -250px);
+ }
+p{
+    text-align: end;
+}
